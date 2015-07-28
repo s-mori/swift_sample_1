@@ -19,40 +19,49 @@ class ViewControllerTabChild1: UIViewController {
         self.title = "FirstChild"
         // デフォルトのナビゲーションは非表示
         self.navigationController?.setNavigationBarHidden(true, animated: false)
-        
-        // ナビゲーションバー
+        /* オリジナルnavigationBar作成 */
+        // navigationBar生成
         let navigation = UIView(frame: CGRectMake(0, 0, 400, 100))
         navigation.backgroundColor = UIColor.whiteColor()
-        // 戻るボタン
-        let backButton = UIButton(frame: CGRectMake(300, 20, 50, 30))
-        backButton.backgroundColor = UIColor.blackColor()
-        backButton.setTitle("戻る", forState: UIControlState.Normal)
+        
+        // UIImageViewを作成してnavigationBarに画像を追加
+        let navigationImage = UIImageView(frame: CGRectMake(0,0,100,80))
+        navigationImage.image = UIImage(named: "panda.png")
+        navigationImage.layer.position = CGPoint(x: 50, y: 60)
+        navigation.addSubview(navigationImage)
+        
+        // backボタンを生成（画像）
+        let backButton = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
+        backButton.setImage(UIImage(named: "backButton.png"), forState: UIControlState.Normal)
+        backButton.frame = CGRectMake(280, 25, 80, 75)
+        // クリック時のアクションを指定
         backButton.addTarget(self, action: "backView:", forControlEvents: UIControlEvents.TouchUpInside)
+        // navigationBarに追加
         navigation.addSubview(backButton)
 
         self.navigationController?.view.addSubview(navigation)
         
+        /* 次の画面への遷移 */
         let nextViewButton = UIButton(frame: CGRectMake(0, 0, 100, 100))
         nextViewButton.setTitle("次の画面へ", forState: UIControlState.Normal)
         nextViewButton.backgroundColor = UIColor.blackColor()
-        nextViewButton.addTarget(self, action: "push:", forControlEvents: UIControlEvents.TouchUpInside)
+        nextViewButton.addTarget(self, action: "moveToNextView:", forControlEvents: UIControlEvents.TouchUpInside)
         nextViewButton.center = self.view.center
         self.view.addSubview(nextViewButton)
     }
     
     // back button
     func backView(sender: UIButton) {
-        println("clicked return button")
+        println("clicked back button")
         // 前の画面に戻る
         self.navigationController?.popViewControllerAnimated(true)
     }
     
-    // next view button
-    func push(sender: UIButton) {
+    // next button
+    func moveToNextView(sender: UIButton) {
         println("clicked next button")
         // 次の画面へ遷移
-        let nextView = SecondViewController()
-        self.navigationController?.pushViewController(nextView, animated: true)
+        self.navigationController?.pushViewController(SecondViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {

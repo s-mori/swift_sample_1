@@ -14,7 +14,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.blueColor()
+        // 背景色 #a6d8d6
+        self.view.backgroundColor = UIColor(red: 0.651, green: 0.8471, blue: 0.8392, alpha: 1.0)
     }
 
     override func didReceiveMemoryWarning() {
