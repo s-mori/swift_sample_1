@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C73BA7281B5F6D86008793B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA7271B5F6D86008793B1 /* AppDelegate.swift */; };
-		C73BA72A1B5F6D86008793B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA7291B5F6D86008793B1 /* ViewController.swift */; };
 		C73BA72F1B5F6D86008793B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73BA72E1B5F6D86008793B1 /* Images.xcassets */; };
 		C73BA7321B5F6D86008793B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73BA7301B5F6D86008793B1 /* LaunchScreen.xib */; };
 		C73BA73E1B5F6D86008793B1 /* sample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA73D1B5F6D86008793B1 /* sample1Tests.swift */; };
-		C73BA7481B5F79AA008793B1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA7471B5F79AA008793B1 /* FirstViewController.swift */; };
 		C73BA74A1B5F7B7F008793B1 /* ViewControllerTabChild1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA7491B5F7B7F008793B1 /* ViewControllerTabChild1.swift */; };
 		C73BA74C1B5F7BA0008793B1 /* ViewControllerTabChild2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA74B1B5F7BA0008793B1 /* ViewControllerTabChild2.swift */; };
 		C73BA74E1B5F7BAD008793B1 /* ViewControllerTabChild3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73BA74D1B5F7BAD008793B1 /* ViewControllerTabChild3.swift */; };
@@ -33,13 +31,11 @@
 		C73BA7221B5F6D86008793B1 /* sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73BA7261B5F6D86008793B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C73BA7271B5F6D86008793B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C73BA7291B5F6D86008793B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C73BA72E1B5F6D86008793B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C73BA7311B5F6D86008793B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C73BA7371B5F6D86008793B1 /* sample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73BA73C1B5F6D86008793B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C73BA73D1B5F6D86008793B1 /* sample1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample1Tests.swift; sourceTree = "<group>"; };
-		C73BA7471B5F79AA008793B1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C73BA7491B5F7B7F008793B1 /* ViewControllerTabChild1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTabChild1.swift; sourceTree = "<group>"; };
 		C73BA74B1B5F7BA0008793B1 /* ViewControllerTabChild2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTabChild2.swift; sourceTree = "<group>"; };
 		C73BA74D1B5F7BAD008793B1 /* ViewControllerTabChild3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTabChild3.swift; sourceTree = "<group>"; };
@@ -90,11 +86,9 @@
 				C78669C01B651AA000698A57 /* SecondViewController.swift */,
 				C73BA74B1B5F7BA0008793B1 /* ViewControllerTabChild2.swift */,
 				C73BA74D1B5F7BAD008793B1 /* ViewControllerTabChild3.swift */,
-				C73BA7291B5F6D86008793B1 /* ViewController.swift */,
 				C73BA72E1B5F6D86008793B1 /* Images.xcassets */,
 				C73BA7301B5F6D86008793B1 /* LaunchScreen.xib */,
 				C73BA7251B5F6D86008793B1 /* Supporting Files */,
-				C73BA7471B5F79AA008793B1 /* FirstViewController.swift */,
 			);
 			path = sample1;
 			sourceTree = "<group>";
@@ -223,9 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C73BA7481B5F79AA008793B1 /* FirstViewController.swift in Sources */,
 				C73BA74E1B5F7BAD008793B1 /* ViewControllerTabChild3.swift in Sources */,
-				C73BA72A1B5F6D86008793B1 /* ViewController.swift in Sources */,
 				C73BA7281B5F6D86008793B1 /* AppDelegate.swift in Sources */,
 				C78669C11B651AA000698A57 /* SecondViewController.swift in Sources */,
 				C73BA74C1B5F7BA0008793B1 /* ViewControllerTabChild2.swift in Sources */,
