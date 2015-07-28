@@ -17,6 +17,13 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# OSX
+.DS_Store
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
