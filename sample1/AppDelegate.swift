@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let secondViewController = ViewControllerTabChild2()
         let thirdViewController = ViewControllerTabChild3()
         
-        let navi1 = UINavigationController(rootViewController: firstViewController)
+        let navi1 = NavigationController(rootViewController: firstViewController)
         let tabBarController = UITabBarController()
         
         // TabBarControllerのviewControllerにNavigationControllerをセット.
