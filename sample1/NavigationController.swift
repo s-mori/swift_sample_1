@@ -28,7 +28,7 @@ class NavigationController: UINavigationController, UINavigationControllerDelega
         navigation.addSubview(navigationImage)
         self.view.addSubview(navigation)
         
-        // backボタン作成
+        /* backボタン作成 */
         backButton = UIButton.buttonWithType(UIButtonType.Custom) as? UIButton
         backButton?.setImage(UIImage(named: "backButton.png"), forState: UIControlState.Normal)
         backButton?.frame = CGRectMake(280, 25, 80, 75)

@@ -17,6 +17,9 @@
 		C78669C11B651AA000698A57 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78669C01B651AA000698A57 /* SecondViewController.swift */; };
 		C7A1367D1B67D1AA00EBB11E /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A1367B1B67D1AA00EBB11E /* backButton.png */; };
 		C7A1367E1B67D1AA00EBB11E /* panda.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A1367C1B67D1AA00EBB11E /* panda.png */; };
+		C7B361571B7A4B04004B44D4 /* panda_side.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B361551B7A4B04004B44D4 /* panda_side.png */; };
+		C7B361581B7A4B04004B44D4 /* panda_sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B361561B7A4B04004B44D4 /* panda_sleep.png */; };
+		C7B3615A1B7ABE10004B44D4 /* next_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = C7B361591B7ABE10004B44D4 /* next_btn.png */; };
 		C7C7F0081B778C5B008CD6D2 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C7F0071B778C5B008CD6D2 /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		C78669C01B651AA000698A57 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C7A1367B1B67D1AA00EBB11E /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
 		C7A1367C1B67D1AA00EBB11E /* panda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda.png; sourceTree = "<group>"; };
+		C7B361551B7A4B04004B44D4 /* panda_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_side.png; sourceTree = "<group>"; };
+		C7B361561B7A4B04004B44D4 /* panda_sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_sleep.png; sourceTree = "<group>"; };
+		C7B361591B7ABE10004B44D4 /* next_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_btn.png; sourceTree = "<group>"; };
 		C7C7F0071B778C5B008CD6D2 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +135,9 @@
 		C7C7F0061B778BA4008CD6D2 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C7B361591B7ABE10004B44D4 /* next_btn.png */,
+				C7B361551B7A4B04004B44D4 /* panda_side.png */,
+				C7B361561B7A4B04004B44D4 /* panda_sleep.png */,
 				C7A1367B1B67D1AA00EBB11E /* backButton.png */,
 				C7A1367C1B67D1AA00EBB11E /* panda.png */,
 			);
@@ -215,9 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7B361581B7A4B04004B44D4 /* panda_sleep.png in Resources */,
 				C7A1367E1B67D1AA00EBB11E /* panda.png in Resources */,
 				C73BA7321B5F6D86008793B1 /* LaunchScreen.xib in Resources */,
+				C7B361571B7A4B04004B44D4 /* panda_side.png in Resources */,
 				C7A1367D1B67D1AA00EBB11E /* backButton.png in Resources */,
+				C7B3615A1B7ABE10004B44D4 /* next_btn.png in Resources */,
 				C73BA72F1B5F6D86008793B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,11 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
         // 背景色 #a6d8d6
         self.view.backgroundColor = UIColor(red: 0.651, green: 0.8471, blue: 0.8392, alpha: 1.0)
+        let pandaImage = UIImageView(frame: CGRectMake(0,0,150,150))
+        pandaImage.image = UIImage(named: "panda_sleep.png")
+        pandaImage.layer.position = CGPoint(x: 300, y: 546)
+        self.view.addSubview(pandaImage)
+
     }
 
     override func didReceiveMemoryWarning() {
